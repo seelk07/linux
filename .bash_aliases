@@ -41,5 +41,6 @@ alias upgrade='sudo pacman -Syu'
 alias pac='sudo pacman -S'
 
 # Debian
-#alias update='sudo apt-get update'
-#alias upgrade='sudo apt-get update && sudo apt-get upgrade'
+#alias update='sudo apt update'
+#alias upgrade='sudo apt update && sudo apt upgrade'
+#alias clean='sudo apt autoclean && sudo apt autoremove'
