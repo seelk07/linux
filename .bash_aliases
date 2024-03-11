@@ -8,7 +8,7 @@ alias c='clear'
 alias h='history'
 alias vi='vim'
 alias mkdir='mkdir -pv'
-alias mount='mount |column -t'
+alias mount='mount |column -t' # Use \mount or "mount" for mounting manually and ignore this alias
 
 # Estimate file space usage to maximum depth
 #alias du1='du -d 1'
@@ -37,8 +37,8 @@ alias fgrep='fgrep --color=auto'
 
 # Distro specific
 # Arch Linux
-alias upgrade='sudo pacman -Syu'
-alias pac='sudo pacman -S'
+#alias upgrade='sudo pacman -Syu'
+#alias pac='sudo pacman -S'
 
 # Debian
 #alias update='sudo apt update'
